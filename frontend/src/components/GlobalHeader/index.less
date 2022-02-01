@@ -1,0 +1,102 @@
+@import "~antd/lib/style/themes/default.less";
+@pro-header-hover-bg: rgba(0, 0, 0, 0.025);
+@avant-grey: #f3f5f8 !important;
+@avant-text-grey: #979da7;
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: auto;
+  padding: 5px;
+  border: 1px solid #eeeeee;
+  background: #fff;
+  margin: 12px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.09);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.09);
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+  padding: 12px 24px 12px 24px;
+}
+
+.right {
+  float: right;
+  margin-right: 15px;
+}
+
+.left {
+  float: left;
+  margin-left: 15px;
+}
+
+.roundedImage {
+  max-height: 31px;
+  border-radius: 999px;
+}
+
+.dropDown {
+  line-height: @layout-header-height;
+  vertical-align: top;
+  cursor: pointer;
+  > i {
+    font-size: 16px !important;
+    transform: none !important;
+    svg {
+      position: relative;
+      top: -1px;
+    }
+  }
+}
+
+/* APPLICATIONS MENU BAR */
+
+.appMenu {
+  margin-left: 5px;
+  background-color: #F26B40 !important;
+  border-bottom: 0 !important;
+}
+
+.childHeader {
+  background-color: #F26B40;
+  min-height: 50px;
+  max-height: 50px;
+  border-radius: 5px;  
+  margin: 0 !important;
+}
+
+.centerChildrenVertically {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.menuItems {
+  background-color: #F26B40 !important;
+  max-height: 50px;
+  color: white !important;
+}
+
+.menuItems:hover {
+  background-color: #F26B40 !important;
+  font-weight: bold;
+  color: white !important;
+}
+
+.menuItems a:hover,
+.menuItems div:hover {
+  background-color: #F26B40 !important;
+  font-weight: bold;
+  color: white !important;
+}
+
+.customerLocationArea {
+  color: white;
+  float: right;
+  text-align: right;
+}
